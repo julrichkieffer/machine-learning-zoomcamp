@@ -10,6 +10,7 @@ __pycache__/
 *.tflite
 *.zip
 *.pdf
+*.model.bin
 
 # data folders
 **data/
