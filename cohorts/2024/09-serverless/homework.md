@@ -1,6 +1,6 @@
 ## Homework
 
-In this homework, we'll deploy the bees vs wasps model we trained in the 
+In this homework, we'll deploy the Straight vs Curly Hair Type model we trained in the 
 [previous homework](../08-deep-learning/homework.md).
 
 Download the model from here: 
@@ -157,7 +157,7 @@ Now let's extend this docker image, install all the required libraries
 and add the code for lambda.
 
 You don't need to include the model in the image. It's already included. 
-The name of the file with the model is `model-2024-hairstyle-v2.tflite` and it's 
+The name of the file with the model is `model_2024_hairstyle_v2.tflite` and it's 
 in the current workdir in the image (see the Dockerfile above for the 
 reference). 
 The provided model requires the same preprocessing for images regarding target size and rescaling the value range than used in homework 8.
